@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "composite": false
+  },
+  "include": [
+    "apps/api/src/**/*.ts",
+    "apps/worker/src/**/*.ts",
+    "apps/dispatcher/src/**/*.ts",
+    "packages/*/src/**/*.ts",
+    "scripts/**/*.ts",
+    "tests/**/*.ts",
+    "vitest.config.ts",
+    "eslint.config.mjs"
+  ],
+  "exclude": ["**/dist/**", "apps/web/**"]
+}

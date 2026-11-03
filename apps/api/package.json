@@ -1,0 +1,27 @@
+{
+  "name": "@reachinbox/api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./app": "./src/app.ts"
+  },
+  "dependencies": {
+    "@bull-board/api": "9.11.0",
+    "@bull-board/express": "9.11.0",
+    "@bull-board/ui": "9.11.0",
+    "@elastic/elasticsearch": "8.15.3",
+    "@reachinbox/contracts": "workspace:*",
+    "@reachinbox/core": "workspace:*",
+    "@reachinbox/db": "workspace:*",
+    "express": "5.3.0",
+    "helmet": "8.3.0",
+    "ioredis": "5.11.1",
+    "openid-client": "6.8.9",
+    "pino-http": "11.0.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.6"
+  }
+}

@@ -1,0 +1,8 @@
+﻿email,name
+ada.lovelace@example.com,"Lovelace, Ada"
+
+alan.turing@example.com,Alan
+grace.hopper@example.org,"Grace ""Amazing"" Hopper"
+alan.turing@example.com,Alan (duplicate row)
+not-an-address,Malformed example
+linus@example.net,Linus

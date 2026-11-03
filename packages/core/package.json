@@ -1,0 +1,18 @@
+{
+  "name": "@reachinbox/core",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "dependencies": {
+    "@elastic/elasticsearch": "8.15.3",
+    "@reachinbox/contracts": "workspace:*",
+    "@reachinbox/db": "workspace:*",
+    "bullmq": "6.5.4",
+    "ioredis": "5.11.1",
+    "nodemailer": "10.3.1",
+    "pino": "10.4.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": { "@types/nodemailer": "8.0.2" }
+}

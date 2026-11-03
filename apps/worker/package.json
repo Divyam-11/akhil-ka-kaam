@@ -1,0 +1,14 @@
+{
+  "name": "@reachinbox/worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@elastic/elasticsearch": "8.15.3",
+    "@reachinbox/contracts": "workspace:*",
+    "@reachinbox/core": "workspace:*",
+    "@reachinbox/db": "workspace:*",
+    "bullmq": "6.5.4",
+    "ioredis": "5.11.1"
+  }
+}

@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* PROVISIONAL STYLING: the Figma reference could not be inspected (edit access missing).
+   Tokens below are placeholders to be replaced when the design is accessible. */
+:root {
+  --color-brand: #2563eb;
+  --color-brand-ink: #ffffff;
+  --color-danger: #b91c1c;
+  --color-success: #15803d;
+  --color-warn: #b45309;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}

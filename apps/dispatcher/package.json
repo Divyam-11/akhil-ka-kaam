@@ -1,0 +1,10 @@
+{
+  "name": "@reachinbox/dispatcher",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@reachinbox/core": "workspace:*",
+    "@reachinbox/db": "workspace:*"
+  }
+}
